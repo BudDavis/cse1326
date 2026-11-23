@@ -190,26 +190,6 @@ There are many different widgets.  The header file is your friend.
 
 
 #pagebreak()
-= gtk timers
-The event driven nature is a blessing and a curse.
-All processing has to happen based upon user input. But, what do
-you do if that is not enough?
-
-== Timer Mechanics
-
-== Introduction to Threads
-
-== 
-#pagebreak()
-= Memory Management
-== Old School
-== use objects and the stack
-== managed pointers
-```C
-auto pButton = Gtk::make_managed<Gtk::Button>("Test");
-box.append(*pButton); // Container deletes pButton later automatically
-```
-
 = Summary on gtk
 
 
